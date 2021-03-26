@@ -9,6 +9,7 @@ SET(EXAMPLE_DIRS
   Status
   Receiver
   Thread
+  Lab_PWP
   )
 
 if (${OpenIGTLink_PROTOCOL_VERSION} GREATER 1)
@@ -26,7 +27,7 @@ if (${OpenIGTLink_PROTOCOL_VERSION} GREATER 1)
     Trajectory
     SessionManager
     TrackingDataUDPTransfer
-    #SampleUDPProgam
+    #SampleUDPProgam 
     )
 endif (${OpenIGTLink_PROTOCOL_VERSION} GREATER 1)
 
